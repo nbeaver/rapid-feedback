@@ -21,3 +21,8 @@
 #hostname -i
 #
 #look xa
+#
+#echo $$
+#echo "$$"
+#echo $'$$'
+#echo '$$'
