@@ -3,6 +3,11 @@ Use it like this::
 
     vim -S live.vim hot-file.sh
 
+(You can use a different text editor,
+but running vim this way will flush the output
+on every keystroke
+and preserve the inode for ``iwatch``.)
+
 Then, in another terminal, do this::
 
     ./watch-hot-file.sh
