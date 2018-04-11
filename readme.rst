@@ -23,8 +23,10 @@ for a less resource-intensive option.
 Problems:
 
 - Long-running hot file.
+
 - Hot file that runs an interactive command
   that expects input (e.g. ``cat``).
+
   There is an ugly hack (`<loop-hot-file.sh>`_)
   that kills the process every time,
   and thus works around the problem.
